@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin: 30px 35px;
+    padding: 40px 40px;
+    background-color: #4C1D95;
+}
+
+@font-face {
+    font-family: Score;
+    src: url("/css/CursedTimerUlil-Aznm.ttf");
+}
+
+.home-title {
+    text-align: center;
+    width: 149px;
+    height: 36px;
+    display: inline-block;
+    margin: 5px 0;
+    font-size: 40px;
+    color: #F59E0B;
+}
+
+.guest-title {
+    text-align: center;
+    width: 149px;
+    height: 36px;
+    display: inline-block;
+    margin: 5px 0;
+    font-size: 40px;
+    color: #F59E0B;
+
+}
+
+.score-container {
+    border: 1px solid black;
+    width: 155px;
+    height: 120px;
+    font-family: Score;
+    margin-top: 10px;
+    background-color: black;
+
+}
+
+.score-title-home {
+    /* border: 1px solid black; */
+    width: 117px;
+    height: 120px;
+    margin: 0 auto;
+    color: #047857;
+    text-align: center;
+    margin: 15px 20px;
+    font-size: 100px;
+}
+
+.score-title-guest {
+    /* border: 1px solid black; */
+    width: 117px;
+    height: 120px;
+    margin: 0 auto;
+    color: #047857;
+    text-align: center;
+    margin: 15px 20px;
+    font-size: 100px;
+}
+
+.points-container {
+    /* border: 1px solid black; */
+    width: 155px;
+    height: 45px;
+    margin-top: 17px;
+    font-family: Score;
+}
+
+button {
+    border: 1px solid whitesmoke;
+    width: 45px;
+    height: 45px;
+    background-color: #4C1D95;
+    font-family: Score;
+    color: white;
+}
+
+.home-plus-one {
+    font-size: 20px
+}
+
+.home-plus-two {
+    font-size: 20px
+}
+
+.home-plus-three {
+    font-size: 20px
+}
+
+.guest-plus-one {
+    font-size: 20px
+}
+
+.guest-plus-two {
+    font-size: 20px
+}
+
+.guest-plus-three {
+    font-size: 20px
+}
+
+.new-game-btn {
+    font-family: 'Times New Roman', Times, serif;
+
+}

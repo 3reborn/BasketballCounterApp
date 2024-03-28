@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="home-container">
+            <h3 class="home-title">HOME</h3>
+            <div class="score-container">
+                <div class="score-title-home">0</div>
+            </div>
+            <div class="points-container">
+                <button class="home-plus-one" onclick="homePlusOne()">+1</button>
+                <button class="home-plus-two" onclick="homePlusTwo()">+2</button>
+                <button class="home-plus-three" onclick="homePlusThree()">+3</button>
+            </div>
+        </div>
+
+        <div class="guest-container">
+            <h3 class="guest-title">GUEST</h3>
+            <div class="score-container">
+                <div class="score-title-guest">0</div>
+            </div>
+            <div class="points-container">
+                <button class="guest-plus-one" onclick="guestPlusOne()">+1</button>
+                <button class="guest-plus-two" onclick="guestPlusTwo()">+2</button>
+                <button class="guest-plus-three" onclick="guestPlusThree()">+3</button>
+            </div>
+        </div>
+        <button class="new-game-btn" onclick="newGameBtn()">New Game</button>
+    </div>
+
+
+
+    <script src="/js/index.js"></script>
+</body>
+
+</html>
